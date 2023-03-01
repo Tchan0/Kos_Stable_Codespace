@@ -1,5 +1,11 @@
 Test
 
+# Notes for KallistiOS:
+  * _kos-ports_: the latest version has been downloaded, but needs compiling - this takes 3-4 minutes:
+    * cd /opt/toolchains/dc/kos-ports/utils
+    * source /opt/toolchains/dc/kos/environ.sh
+    * ./build-all.sh 
+
 # Tips:
   * Helper commands to launch in the Terminal (inside your codespace: File-View-Terminal):
     * To add the Kos examples to your VSCode workspace:
