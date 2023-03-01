@@ -1,6 +1,8 @@
-Test
-
 # Notes for KallistiOS:
+  * __kos__: the latest version has been downloaded and compiled.
+    * To go to the kos folder:
+      * cd /opt/toolchains/dc
+    * TODO: source /opt/toolchains/dc/kos/environ.sh
   * __kos-ports__: the latest version has been downloaded, but needs compiling - this takes 3-4 minutes:
     * cd /opt/toolchains/dc/kos-ports/utils
     * source /opt/toolchains/dc/kos/environ.sh
@@ -10,8 +12,7 @@ Test
   * Helper commands to launch in the Terminal (inside your codespace: File-View-Terminal):
     * To add the Kos examples to your VSCode workspace:
       * code -a /opt/toolchains/dc/kos/examples
-    * To go to the kos folder:
-      * cd /opt/toolchains/dc
+
     * To compile an example & send the .elf to your broadband adapter (BBA): something like:
       * cd /opt/toolchains/dc/kos/examples/dreamcast/hello
       * make
